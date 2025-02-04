@@ -38,7 +38,6 @@ h2 {
   font-size: 36px;
   line-height: 40px;
   font-weight: 700;
-  margin-bottom: 76px;
 }
 h3 {
   font-size: 20px;
@@ -209,6 +208,7 @@ nav a {
   letter-spacing: 0.02em;
   /* не рекомендується використовувати. Не на всіх мовах це буде писатиться з великої літери */
   text-transform: capitalize;
+  margin-bottom: 76px;
 }
 
 .section-secondary-header {
@@ -255,14 +255,13 @@ nav a {
 }
 .team-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
-  padding: 0 var(--horizontal-padding);
 }
 
 
 .team-member {
   border-radius: 4px;
+  background-color: var(--primary-text);
 }
 
 .team-member-info {
@@ -280,6 +279,7 @@ nav a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-section .thumbnail-info {
@@ -292,9 +292,6 @@ nav a {
 .team-section h2,
 .portfolio-section h2 {
   text-align: center;
-}
-.team-section li {
-  background-color: var(--primary-text);
 }
 
 .team-section p,
