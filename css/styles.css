@@ -213,7 +213,6 @@ ul {
 .section-header {
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* не рекомендується використовувати. Не на всіх мовах це буде писатиться з великої літери */
   text-transform: capitalize;
 }
 
