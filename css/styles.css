@@ -19,7 +19,12 @@ body {
   background-color: var(--primary-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -206,9 +211,9 @@ ul {
   background-color: var(--primary-text-light);
 }
 
-.team-section p{
-    font-size: 16px;
-  }
+.team-section p {
+  font-size: 16px;
+}
 
 .section-header {
   line-height: 1.11;
@@ -217,13 +222,13 @@ ul {
 }
 
 .section-secondary-header {
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 .services-section {
   padding: 120px 0;
 }
 .services-section-header {
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .services-list {
@@ -240,11 +245,11 @@ ul {
 }
 
 .description {
-    letter-spacing: 0.02em;
-    color: var(--secondary-color);
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .team-section {
@@ -263,6 +268,9 @@ ul {
 .team-member {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-member-info {
